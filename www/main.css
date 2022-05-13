@@ -1,0 +1,108 @@
+body{
+  background-image: url("background.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#nav {
+    display: flex;
+    list-style: none;
+    background-color: rgb(112, 111, 111);
+    justify-content: center;
+}
+
+#nav li {
+  padding: 0.5em;
+}
+
+#nav a {
+    color:rgb(140, 9, 173);
+    text-decoration: none;
+}
+
+
+
+#signin-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10%;
+}
+
+#signup-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10%;
+}
+
+#deconnecter {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10%;
+}
+
+
+#form-button {
+  display: flex;
+  justify-content: center;
+}
+
+#titre {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+#titre-attention {
+  color: rgb(255, 255, 255);
+}
+
+#titre-se-connecter {
+  color: rgb(255, 255, 255);
+}
+
+#titre-s-inscrire {
+  color: rgb(255, 255, 255);
+}
+
+#chat {
+  width: 50%;
+  height: 150px;
+  text-align: left;
+  
+}
+
+textarea { 
+  font-size: 23px; 
+}
+
+#chat-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10%;
+  position: relative;
+  bottom: 70px;
+}
+
+.error {
+  color: #f00;
+}
+
+.textes {
+  color: #fff
+} 
+
+.texte {
+  display: flex;
+}
+
+.texte p {
+  width: 70%;
+}
